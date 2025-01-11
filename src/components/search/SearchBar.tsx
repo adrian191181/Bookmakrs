@@ -55,7 +55,7 @@ const SearchEngineIcon = ({ engine }: { engine: string }) => {
 export function SearchBar({ 
   placeholder = "Search bookmarks...", 
   onSearch, 
-  currentEngine = "Bookmarks", 
+  currentEngine = "Web Search", 
   onEngineChange, 
   currentCollection = 'all', 
   onCollectionChange 
