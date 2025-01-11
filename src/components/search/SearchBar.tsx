@@ -23,57 +23,18 @@ const SearchEngineIcon = ({ engine }: { engine: string }) => {
           <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
         </svg>
       );
-    case 'Baidu':
+    case 'Brave':
       return (
-        <svg className="w-4 h-4" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-          <path d="M176.73984 539.3792c113.8816-23.90784 98.39104-156.90752 94.97088-186.0352-5.60128-44.8128-59.53536-123.16928-132.76928-116.95872-92.19328 8.06144-105.66144 138.18112-105.66144 138.18112C20.78976 434.77504 63.13984 563.32544 176.73984 539.3792L176.73984 539.3792zM297.66656 770.74176c-3.32032 9.37984-10.75456 33.32608-4.32128 54.1312 12.70784 46.69696 58.39104 39.08352 58.39104 39.08352l64.01536 0 0-128.03328-64.01536 0C323.05408 744.30464 300.7744 761.43104 297.66656 770.74176L297.66656 770.74176zM388.15488 316.31104c62.92992 0 113.76128-70.77376 113.76128-158.18496 0-87.39072-50.8288-158.12608-113.76128-158.12608-62.80704 0-113.78688 70.73536-113.78688 158.12608C274.368 245.53728 325.3504 316.31104 388.15488 316.31104L388.15488 316.31104zM659.07968 326.77632c84.12416 10.65728 138.1504-77.00992 148.90752-143.45984 10.94144-66.35776-43.30752-143.46496-102.85056-156.71552-59.6608-13.38368-134.11072 80.02304-140.89728 140.86656C556.14208 241.88672 575.18336 316.21376 659.07968 326.77632L659.07968 326.77632zM865.12384 717.4784c0 0-130.08128-98.39104-206.0672-204.68992-102.94272-156.71552-249.19296-92.95872-298.07616-13.25824-48.68096 79.70304-124.608 130.08384-135.3984 143.46752-10.91328 13.12768-157.09696 90.2656-124.672 231.13472 32.42496 140.86656 154.80064 149.86752 154.80064 149.86752s75.63008-3.61984 173.09952-24.93952c97.46432-21.12 181.45792 5.25824 181.45792 5.25824s227.71456 74.5088 290.02752-68.95616C962.52928 791.86944 865.12384 717.4784 865.12384 717.4784L865.12384 717.4784zM479.76704 927.97184l-160.04864 0c-63.91808-1.50272-81.74848-52.08576-84.94848-59.34336-3.1744-7.3984-21.25824-41.67424-11.68128-99.93728 27.62496-87.3856 96.6656-96.76032 96.6656-96.76032l96.02816 0 0-96.0256 64.01792 0 0 352.06144L479.76704 927.97184 479.76704 927.97184zM735.84384 927.97184 575.7952 927.97184c-63.02464-2.69568-64.11776-60.4672-64.11776-60.4672l0.09984-195.60448 64.01792 0 0 160.0512c4.224 17.64096 32.00768 32.00512 32.00768 32.00512l64.02048 0 0-192.05376 64.02048 0L735.84384 927.97184 735.84384 927.97184zM992.39168 438.35904c0-31.77728-27.04896-127.51872-127.26784-127.51872-100.43904 0-113.85856 90.36032-113.85856 154.24768 0 60.94592 5.248 146.02496 130.01984 143.36768C1006.0544 605.80608 992.39168 470.34112 992.39168 438.35904L992.39168 438.35904z" fill="#2319dc"/>
+        <svg className="w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.44 0C9.81 0 7.3 1.1 5.42 3C3.55 4.9 2.44 7.42 2.44 10.04C2.44 15.31 7.56 18.88 12.44 24C17.32 18.88 22.44 15.31 22.44 10.04C22.44 7.42 21.33 4.9 19.45 3C17.57 1.1 15.06 0 12.44 0ZM12.44 13.33C11.25 13.33 10.29 12.36 10.29 11.17C10.29 9.98 11.25 9.01 12.44 9.01C13.63 9.01 14.6 9.98 14.6 11.17C14.6 12.36 13.63 13.33 12.44 13.33Z" fill="#FB542B"/>
         </svg>
       );
-    case 'Bing':
+    case 'Google Scholar':
       return (
-        <svg className="w-4 h-4" viewBox="0 0 234 343.41" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-          <defs>
-            <linearGradient id="a" x1="-29.25" y1="662.02" x2="-23.09" y2="658.46" gradientTransform="matrix(24.45, 0, 0, -24.45, 967.18, 16420.97)" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#37bdff"/>
-              <stop offset="0.18" stopColor="#33bffd"/>
-              <stop offset="0.36" stopColor="#28c5f5"/>
-              <stop offset="0.53" stopColor="#15d0e9"/>
-              <stop offset="0.55" stopColor="#12d1e7"/>
-              <stop offset="0.59" stopColor="#1cd2e5"/>
-              <stop offset="0.77" stopColor="#42d8dc"/>
-              <stop offset="0.91" stopColor="#59dbd6"/>
-              <stop offset="1" stopColor="#62dcd4"/>
-            </linearGradient>
-            <linearGradient id="b" x1="-32.86" y1="656.68" x2="-23.89" y2="656.68" gradientTransform="matrix(24.45, 0, 0, -24.45, 967.18, 16420.97)" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#39d2ff"/>
-              <stop offset="0.15" stopColor="#38cefe"/>
-              <stop offset="0.29" stopColor="#35c3fa"/>
-              <stop offset="0.43" stopColor="#2fb0f3"/>
-              <stop offset="0.55" stopColor="#299aeb"/>
-              <stop offset="0.58" stopColor="#2692ec"/>
-              <stop offset="0.76" stopColor="#1a6cf1"/>
-              <stop offset="0.91" stopColor="#1355f4"/>
-              <stop offset="1" stopColor="#104cf5"/>
-            </linearGradient>
-            <linearGradient id="c" x1="-31.2" y1="655.9" x2="-31.2" y2="667.89" gradientTransform="matrix(24.45, 0, 0, -24.45, 967.18, 16420.97)" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stopColor="#1b48ef"/>
-              <stop offset="0.12" stopColor="#1c51f0"/>
-              <stop offset="0.32" stopColor="#1e69f5"/>
-              <stop offset="0.57" stopColor="#2190fb"/>
-              <stop offset="1" stopColor="#26b8f4"/>
-            </linearGradient>
-          </defs>
-          <path d="M397,303.4a92.73,92.73,0,0,1-24.84,63.16,41.81,41.81,0,0,0,4.5-6,38.11,38.11,0,0,0,2.69-5.08,17.7,17.7,0,0,0,.74-1.78,17.25,17.25,0,0,0,.65-1.78c.21-.56.39-1.14.55-1.72s.33-1.2.46-1.81l.07-.21c.14-.6.25-1.2.37-1.81s.23-1.25.33-1.88v0c.09-.58.16-1.16.21-1.76a40,40,0,0,0,.21-4.13A41.41,41.41,0,0,0,377,317.11a36.51,36.51,0,0,0-2.85-4.17,39.93,39.93,0,0,0-4-4.43,41.45,41.45,0,0,0-12.36-8.28,38.78,38.78,0,0,0-6.22-2.14l-.09,0-.74-.25-10.81-3.71v0l-28.27-9.72c-.09,0-.21,0-.28,0l-1.77-.65A26.23,26.23,0,0,1,296.29,272L286,245.62l-11.83-30.16-2.27-5.82-.58-1.18a13.35,13.35,0,0,1-1-5.08,12,12,0,0,1,0-1.35,13.19,13.19,0,0,1,18.26-10.79l52.69,27,10.39,5.31A91.11,91.11,0,0,1,367,235a92.45,92.45,0,0,1,29.79,61.87C396.91,299.06,397,301.22,397,303.4Z" transform="translate(-163 -82.94)" fill="url(#a)"/>
-          <path d="M382.91,338.56a42.8,42.8,0,0,1-.72,7.82c-.14.67-.28,1.35-.44,2-.3,1.2-.62,2.36-1,3.53-.21.6-.42,1.2-.65,1.78s-.49,1.18-.74,1.78a38.1,38.1,0,0,1-2.69,5.08,42.22,42.22,0,0,1-4.5,6c-7.68,8.49-33.75,23.63-43.36,29.79l-21.33,13c-15.63,9.63-30.41,16.45-49,16.91-.88,0-1.74,0-2.6,0-1.2,0-2.39,0-3.57-.07a92.86,92.86,0,0,1-74.92-43.17,91.58,91.58,0,0,1-13.68-38.67,41.13,41.13,0,0,0,60,28.95l.14-.07,2.09-1.25,8.49-5,10.81-6.4v-.3l1.39-.83,96.71-57.29,7.44-4.41.74.25.09,0a38.31,38.31,0,0,1,6.22,2.14,41.45,41.45,0,0,1,12.36,8.28,40,40,0,0,1,4,4.43,37,37,0,0,1,2.85,4.17A41.64,41.64,0,0,1,382.91,338.56Z" transform="translate(-163 -82.94)" fill="url(#b)"/>
-          <path d="M245.24,147.35l0,213.29L234.39,367l-8.5,5-2.09,1.27a.24.24,0,0,0-.13.06,41.13,41.13,0,0,1-60-28.94c-.16-.89-.28-1.81-.38-2.7-.13-1.68-.22-3.33-.25-5v-240a13.77,13.77,0,0,1,21.46-11.41l42.07,27.48a5.55,5.55,0,0,0,.73.51A41.14,41.14,0,0,1,245.24,147.35Z" transform="translate(-163 -82.94)" fill="url(#c)"/>
+        <svg className="w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2C9.31 2 7 4.31 7 7C7 9.69 9.31 12 12 12C14.69 12 17 9.69 17 7C17 4.31 14.69 2 12 2ZM12 14C7.03 14 2 15.79 2 18.5V21H22V18.5C22 15.79 16.97 14 12 14Z" fill="#4285F4"/>
         </svg>
       );
-      case 'Yandex':
-        return (
-          <svg className="w-4 h-4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <path d="M104.187 109.659C113.132 128.751 115.512 135.317 115.512 158.584V189.024H84.4885V137.696L26 10H58.2243L104.176 109.659H104.187ZM142.371 10L104.176 96.5265H135.805L174.001 10H142.371Z" fill="#FC3F1D"/>
-          </svg>
-        );
       case 'ChatGPT':
         return (
           <svg className="w-4 h-4" viewBox="0 0 24 24">
@@ -99,7 +60,7 @@ export function SearchBar({
   currentCollection = 'all', 
   onCollectionChange 
 }: SearchBarProps) {
-  const engines = ["Bookmarks", "Web Search", "AI Search"];
+  const engines = [ "Web Search", "AI Search","Bookmarks"];
   const [inputValue, setInputValue] = useState("");
   const [isFocused, setIsFocused] = useState(false);
   const editorRef = useRef<HTMLDivElement>(null);
@@ -110,9 +71,7 @@ export function SearchBar({
   const aiSearchEngines: { [key: string]: string } = {
     ChatGPT: "https://chatgpt.com/?q=",
     Perplexity: "https://www.perplexity.ai/?q=",
-    ThinkAny: "https://thinkany.so/search?q=",
-    "秘塔": "https://metaso.cn/?q=",
-    "360AI搜索": "https://www.sou.com/?q="
+    ThinkAny: "https://thinkany.so/search?q="
   };
 
   useEffect(() => {
@@ -137,10 +96,10 @@ export function SearchBar({
       }
     } else if (currentEngine === "Web Search") {
       const searchUrls: { [key: string]: string } = {
+        Brave: `https://search.brave.com/search?q=${encodeURIComponent(inputValue)}`,
         Google: `https://www.google.com/search?q=${encodeURIComponent(inputValue)}`,
-        Baidu: `https://www.baidu.com/s?wd=${encodeURIComponent(inputValue)}`,
-        Bing: `https://www.bing.com/search?q=${encodeURIComponent(inputValue)}`,
-        Yandex: `https://yandex.com/search/?text=${encodeURIComponent(inputValue)}`
+        GoogleScholar: `https://scholar.google.com/scholar?hl=es&as_sdt=0%2C5&q=${encodeURIComponent(inputValue)}`,
+        
       };
       
       const url = searchUrls[currentSearchEngine];
@@ -159,7 +118,7 @@ export function SearchBar({
     if (engine === "Web Search") {
       onEngineChange?.(engine);
       if (!currentSearchEngine) {
-        setCurrentSearchEngine("Google");
+        setCurrentSearchEngine("Brave");
       }
     } else {
       onEngineChange?.(engine);
