@@ -75,7 +75,7 @@ export function SearchBar({
   };
 
   useEffect(() => {
-    if (currentEngine && currentEngine !== "Bookmarks") {
+    if (currentEngine && currentEngine !== "Web Search") {
       setInputValue("");
     }
   }, [currentEngine]);
