@@ -250,7 +250,7 @@ export function SearchBar({
                   e.stopPropagation();
                 }}
               >
-                {currentEngine === "Bookmarks" && (
+                {currentEngine === "Web Search" && (
                   <div className="flex items-center gap-2">
                     {[
                       { value: 'all', label: 'All Collections' },
